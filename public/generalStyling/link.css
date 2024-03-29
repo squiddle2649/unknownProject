@@ -1,0 +1,11 @@
+.underlineOnHover{
+    text-decoration: none;
+    color: inherit;
+}
+.underlineOnHover:hover{
+    text-decoration: underline;
+}
+.noDecoration{
+    text-decoration:none;
+    color: inherit;
+}
