@@ -1,10 +1,3 @@
 .headerContainer{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
-/* .headerLink{
-    color: inherit;
-    text-decoration: none;
-}
-.headerLink:hover{
-    text-decoration: underline;
-} */

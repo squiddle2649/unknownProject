@@ -1,3 +1,4 @@
 .secondBlockContainer{
-    margin-top: 80px;
+    margin: 0;
+    transform: translateY(-190px);
 }
