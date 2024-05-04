@@ -1,0 +1,8 @@
+.contactPageContainer{
+    overflow-x: hidden;
+    width: 100vw;
+}
+.contactPage{
+    width: 80%;
+    /* background-color: aquamarine; */
+}

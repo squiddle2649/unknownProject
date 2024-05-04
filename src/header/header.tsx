@@ -4,13 +4,13 @@ import {Link} from 'react-router-dom';
 const Header = ()=>{
     
     return <div className="flexRow flexSpaceEvenly headerContainer">
-        <Link className='underlineOnHover' to='/'>
+        <Link className='underlineOnHover' to='/test'>
             <h3 className="bold">Home</h3>
         </Link>
         <Link className='underlineOnHover' to='/contact'>
             <h3 className="bold">Contact</h3>
         </Link>
-        <Link className='underlineOnHover' to='/contact'>
+        <Link className='underlineOnHover' to='/about'>
             <h3 className="bold">About me</h3>
         </Link>
     </div>

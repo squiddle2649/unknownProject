@@ -1,5 +1,5 @@
 #root{
-    --wave-color:#f3bfbf;
+    --wave-color:#f4d7ff;
 }
 
 .portrait{
@@ -21,32 +21,32 @@
     padding: 10px;
     border-radius: 15px;
 }
-
-.waveContainer{
-    width: 100vw;
+.photoAndText{
+    width: 70%;
 }
-.wave{
-    /* position: absolute;
-    bottom: -100%; */
-    z-index: -1;
-    width: 100vw;
-    fill: var(--wave-color);
-
-}
-.photoAndText{ /* this way, we can position the
-     wave block absolutely behind photoAndText */
-    position: relative;
-}
-
-.waveBlock{
-    bottom: 0;
-    z-index: -1;
+.waveContainer {
     position: absolute;
-    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0%;
+    z-index: -1;
+}
+
+/* .waveContainer svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+} */
+
+.waveContainer .shape-fill {
+    fill: var(--wave-color);
+}
+.waveBlock{ 
+    
     width: 100vw;
+    height: 100vh;
     background-color: var(--wave-color);
 
-}
-.waveClass{
-    transform: rotate(180deg) translateY(110px);
+    
 }

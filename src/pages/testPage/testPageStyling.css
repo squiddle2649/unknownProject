@@ -1,0 +1,25 @@
+#root{
+    --subtextLightTone:hsl(174, 81%, 17%);
+    --subtextDarkTone:#4695d1;
+}
+
+.firstText{
+    margin: 80px;
+}
+.testPageContainer{
+    overflow-x: hidden;
+}
+.firstTextContainer{
+    width: 100vw;
+}
+.benefitsContainer{
+    width: 50%;
+}
+.brag{
+    margin-bottom: 50px;
+}
+.benefitsContainer{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 40px;
+}

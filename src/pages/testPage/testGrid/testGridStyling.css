@@ -1,19 +1,21 @@
+
 .subjectsGrid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);;
-    column-gap: 20px;
-    row-gap: 50px;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);;
+    gap: 10px 10px;
     z-index: 1;   
-
+    width: 50%;
+    margin-bottom: 40px;
 }
 .gridItemContainer{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2) ;
-    width:100%;
+    aspect-ratio: 16/9;
     cursor: pointer;
     transition-duration: 200ms;
-}
+} 
 .gridItemContainer:hover{
     background-color: rgb(237, 237, 237);
 }

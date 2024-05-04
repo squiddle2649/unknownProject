@@ -4,10 +4,10 @@ import SecondBlock from "./secondBlock/secondBlock"
 
 const Homepage = () =>{
     return <div className = "homepageContainer flexCenter flexColumn" >
-        <div style={{width:"70%",color:"black"}}>
+    <div style={{color:"black",width:"70%"}}>
             <Header></Header>
-            <FirstBlock></FirstBlock>
         </div>
+            <FirstBlock></FirstBlock>
         
             <SecondBlock></SecondBlock>
     </div>
