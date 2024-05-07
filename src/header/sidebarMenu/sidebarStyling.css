@@ -1,0 +1,36 @@
+
+@media (min-width:550px) {
+    .menuContainer{
+        display: none;
+    }
+}
+.sidebarMenu{ 
+    z-index: 1;
+    width: 230px;
+    height: 100vh;
+    background-color: #a2d6fe;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    position: relative;
+}
+
+.menuOption{
+    color: black;
+    text-decoration: none;
+}
+.menuOption:hover{
+    text-decoration: underline;
+}
+.closeButton{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+}
+.toggleButton{
+    margin: 30px;
+    cursor: pointer;
+}

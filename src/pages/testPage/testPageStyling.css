@@ -4,22 +4,29 @@
 }
 
 .firstText{
-    margin: 80px;
+    margin: 80px 10px;
+}
+@media (max-width:550px) {
+    .firstText{
+        margin: 0px 10px;
+        margin-bottom: 80px;
+    }
 }
 .testPageContainer{
     overflow-x: hidden;
+
 }
 .firstTextContainer{
     width: 100vw;
 }
 .benefitsContainer{
     width: 50%;
-}
-.brag{
-    margin-bottom: 50px;
-}
-.benefitsContainer{
+    min-width: 220px;
+    background-color: rgb(228, 250, 243);
     border-radius: 20px;
     border: 2px solid black;
     padding: 40px;
+}
+.brag{
+    margin-bottom: 50px;
 }

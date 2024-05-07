@@ -24,13 +24,6 @@
 .photoAndText{
     width: 70%;
 }
-.waveContainer {
-    position: absolute;
-    width: 100%;
-    overflow: hidden;
-    bottom: 0%;
-    z-index: -1;
-}
 
 /* .waveContainer svg {
     position: relative;

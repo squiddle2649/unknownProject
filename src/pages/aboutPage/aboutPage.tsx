@@ -6,11 +6,8 @@ const AboutPage = ()=>{
         <Header></Header>
         <div className="aboutPageContainer flexColumn flexCenter">
             <div className="aboutPage">
-                <h1 className="bold">Aboiyut me</h1>
-                <p>Monkey see omnkey do monkey see monkey do monekysfluef</p>
-                <p>Monkey see omnkey do monkey see monkey do monekysfluef</p>
-                <p>Monkey see omnkey do monkey see monkey do monekysfluef</p>
-                <p>Monkey see omnkey do monkey see monkey do monekysfluef</p>
+                <h1 className="bold">About me</h1>
+                <h2>Hi, I'm Bruno.</h2>
             </div>
         </div>
     </div>
