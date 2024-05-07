@@ -1,4 +1,4 @@
-import Header from "../../header/header"
+import Header from "../../menu/header/header"
 import MailIcon from "../../SVG/mailIcon"
 import PhoneIcon from "../../SVG/phoneIcon"
 import './contactPageStyling.css'

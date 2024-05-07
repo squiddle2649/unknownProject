@@ -1,7 +1,7 @@
 import { GermanPage,Programming,Math,ChemPage } from "./subjectPages/subjectPages"
 import './theSubjectStyling.css'
 import { useParams } from "react-router-dom"
-import Header from "../../../header/header"
+import Header from "../../../menu/header/header"
 
 export const SubjectPage = ()=>{
     const {subject} = useParams()

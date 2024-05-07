@@ -1,12 +1,12 @@
 .subjectsGrid{
     display: grid;
-    place-items: center;
     gap: 10px 10px;
-
     width: 50%;
     min-width: 364px;
     margin-bottom: 40px;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin-left: 60px;
 }
 .gridItemContainer{
     background-color: rgb(255, 255, 255);

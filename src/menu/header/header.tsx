@@ -1,12 +1,12 @@
 import './headerStyling.css'
 import {Link} from 'react-router-dom';
-import Menu from './sidebarMenu/sidebar';
+import Menu from '../sidebarMenu/sidebar';
 
 const Header = ()=>{
     
     return <div>
         <div className="flexRow flexSpaceEvenly headerContainer">
-            <Link className='underlineOnHover' to='/test'>
+            <Link className='underlineOnHover' to='/'>
                 <h3 className="bold">Home</h3>
             </Link>
             <Link className='underlineOnHover' to='/contact'>

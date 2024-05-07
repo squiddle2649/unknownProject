@@ -1,13 +1,11 @@
-import './testPageStyling.css'
+import './homePageStyling.css'
 import TestGrid from './testGrid/testGrid'
-import Header from '../../header/header'
-// import Menu from './sidebarMenu/sidebar'
+import Header from '../../menu/header/header'
 import { getModeForUsageLocation } from 'typescript'
 
 const TestPage = ()=>{
     return <div className='testPageContainer'>
         <Header></Header>
-        {/* <Menu></Menu> */}
         <FirstText></FirstText>
         <TestGrid></TestGrid>
         <BraggingText></BraggingText>
@@ -31,7 +29,7 @@ const BraggingText = ()=>{
         <div className='benefitsContainer'>
             <Brag
                 title="Price"
-                description="Prices for lessons range from 15€ to 25€, which is definetly worth the amount of commitment and personal care you will receive."
+                description="Lesson prices range from 15€ to 25€, which is definetly worth the amount of commitment and personal care you will receive."
                 emoji="💲"
             ></Brag>
             <Brag
