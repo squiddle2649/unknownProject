@@ -34,12 +34,12 @@ const BraggingText = ()=>{
             ></Brag>
             <Brag
                 title="Flexibility"
-                description="As someone who has worked hard to succeed in school, I understand often understand students' problems well because I have probably gone through it myself."
+                description="Lessons can be suited and adapted to your own needs and desires. No need to worry about strict prices or times: you decide how you want to be taught."
                 emoji="👍"
             ></Brag>
             <Brag
                 title="Empathy"
-                description="As someone who has worked hard to succeed in school, I understand the problem that a student is facing because I have probably gone through them myself."
+                description="As someone who has worked hard to succeed in school, I often understand students' problems well because I have probably gone through them myself."
                 emoji="❤️"
             ></Brag>
             <Brag

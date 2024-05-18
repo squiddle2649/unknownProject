@@ -3,16 +3,19 @@
     gap: 10px 10px;
     width: 50%;
     min-width: 364px;
+    max-width: 640px;
     margin-bottom: 40px;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     margin-left: 60px;
+    margin-right: 60px;
 }
 .gridItemContainer{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2) ;
-    aspect-ratio: 16/9;
+    /* aspect-ratio: 16/9; */
+    /* max-width: 260px; */
     cursor: pointer;
     transition-duration: 200ms;
 } 

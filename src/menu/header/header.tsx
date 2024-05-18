@@ -9,11 +9,11 @@ const Header = ()=>{
             <Link className='underlineOnHover' to='/'>
                 <h3 className="bold">Home</h3>
             </Link>
-            <Link className='underlineOnHover' to='/contact'>
-                <h3 className="bold">Contact</h3>
-            </Link>
             <Link className='underlineOnHover' to='/about'>
                 <h3 className="bold">About me</h3>
+            </Link>
+            <Link className='underlineOnHover' to='/contact'>
+                <h3 className="bold">Contact</h3>
             </Link>
         </div>
         <Menu></Menu>
